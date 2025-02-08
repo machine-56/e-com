@@ -49,6 +49,11 @@
                     align-items: end;
                     justify-content: space-between;
                     margin-top: auto;
+                    img{
+                        width: 200px;
+                        height: 200px;
+                        object-fit: cover;
+                    }
                     .card__price{
                         span{
                             display: block;
