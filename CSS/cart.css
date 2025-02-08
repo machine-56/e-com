@@ -1,0 +1,19 @@
+@import url(./colour.css);
+
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.empty{
+    display: flex;
+    justify-content: center;
+    color: var(--text-d);
+    a{
+        text-decoration: none;
+        color: var(--outline-red);
+    }
+}

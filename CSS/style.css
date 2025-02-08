@@ -68,10 +68,15 @@ body{
 @media screen and (max-width:768px) {
     
 
-    
+    .navbar-toggler{
+        border: 1px solid var(--dark-bg-4);
+        background-color: var(--dark-bg-4);
+    }
+
     .nav-link{
         margin-top: 1rem;
     }
+
     .search-main{
         margin: auto;
     }

@@ -1,0 +1,15 @@
+.notify-btn {
+    width: 50%;
+    color: var(--primary-dark);
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border:1px solid var(--primary-dark);
+    transition: all 0.2s ease-in-out;
+}
+
+.notify-btn:hover {
+    color: var(--primary-light);
+    background-color: var(--primary-dark);
+}
