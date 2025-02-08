@@ -1,5 +1,12 @@
 @import url(./colour.css);
 
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .signup-container {
     max-width: 100%;
     padding: 2rem;
@@ -41,3 +48,17 @@
     color: var(--nav-txt-dark);
     text-decoration: none;
 }
+
+/* @media screen and (max-width:768px) {
+    .footer-main{
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        padding: 2rem ;
+        color: var(--primary-text-dark);
+        border-top: 1px solid #800000;
+        background-color: var(-primary-dark);
+
+        
+    }
+} */

@@ -66,6 +66,12 @@ body{
     
 }
 @media screen and (max-width:768px) {
+    
+
+    
+    .nav-link{
+        margin-top: 1rem;
+    }
     .search-main{
         margin: auto;
     }

@@ -8,6 +8,10 @@
 
 .container{
     margin-top: 2rem;
+    .col{
+        display: flex;
+        justify-content: center;
+    }
     .store-main{
         margin-top: 4rem;
         margin-bottom: 2rem;
