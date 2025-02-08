@@ -1,0 +1,43 @@
+@import url(./colour.css);
+
+.login-container {
+    max-width: 400px;
+    padding: 2rem;
+    margin: 5% auto;
+    border-radius: 8px;
+    background-color: var(--dark-bg-3);
+    border: 1px solid var(--text-1);
+    box-shadow: 0 0px 10px var(--dark-shadow-3);
+}
+
+.form-label {
+    color: var(--nav-txt-dark);
+}
+
+.form-control {
+    background-color: var(--dark-bg-2);
+    border: 1px solid var(---primary-dark);
+    color: var(--nav-txt-dark);
+}
+
+.form-control:focus {
+    background-color: var(--dark-bg-2);
+    color: #FFF;
+    border-color: var(--nav-txt-dark);
+}
+
+.btn-outline-cstm {
+    border: 2px solid var(--nav-txt-dark);
+    color: var(--nav-txt-dark);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-cstm:hover {
+    background-color: var(--nav-txt-dark);
+    color: #1C1C1C;
+}
+
+#link-signup{
+    color: var(--nav-txt-dark);
+    text-decoration: none;
+}

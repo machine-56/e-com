@@ -1,0 +1,131 @@
+
+
+.carousel-item{
+    img{
+        height: 20rem;
+        margin-top: 5px;
+        border: 1px solid #800000;
+    }
+}
+
+.container{
+    margin-top: 4rem;
+    .featured-head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .featured-body{
+
+        .feature-navigation{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 1rem;
+            a{
+                margin: 0 1rem;
+                color: var(--secondary-text-dark);
+                text-decoration: none;
+            }
+            a.active{
+                border-bottom: 1px solid var(--tertiary-text-dark);
+            }
+
+        }
+        
+    }
+}
+
+.container{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    .exclusive-head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .col{
+        .img-main{
+            height: 20rem;
+            object-fit: cover;
+            box-shadow: 0px 0px 8px var(--dark-shadow);
+            border: 1px solid #800000;
+            text-align: center;
+            img{
+                width: 100%;
+                height: 80%;
+                object-fit: cover;
+                border-radius: 8px;
+            }
+            .exc-txt{
+                margin-top: .5rem;
+                font-size: 1.2rem;
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+    .tab{
+        display: none !important;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        
+        img{
+            padding: 1rem;
+            width: 50%;
+            height: 20rem;
+            object-fit: cover;
+            border: 1px solid #800000;
+
+        }
+        .feat-para{
+            /* padding: 1rem; */
+            width: 50%;
+            margin-left: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .tab.active {
+        display: flex !important;
+    }
+}
+@media screen and (max-width:768px) {
+        .tab {
+            display: none;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            width: 100%;
+    
+            img {
+                width: 100%;
+                height: 20rem;
+                object-fit: cover;
+                border: 1px solid #048000;
+            }
+    
+            .feat-para {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                p{
+                    text-align: justify;
+                }
+            }
+        }
+        .tab.active {
+            display: grid !important;
+            grid-template-columns: 1fr; /* Makes it a single-column grid */
+            gap: 1rem; /* Adds spacing between elements */
+        }
+    }
+    

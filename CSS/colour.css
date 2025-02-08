@@ -1,0 +1,41 @@
+:root {
+  /* Dark Mode */
+  --primary-dark: #1C1C1C; /* Deep Charcoal */
+  --secondary-dark: #2E1F16; /* Rich Espresso */
+  --primary-text-dark: #fcfcfc; /* Soft Cream */
+  --secondary-text-dark: #FAF3E0; /* Soft Cream */
+  --tertiary-text-dark: #E6A57E; /* Warm Beige */
+  --accent-dark: #8B0000; /* Elegant Burgundy */
+  --highlight-dark: #D32F2F; /* Deep Red */
+  --bg-dark-nav: #1C1C1C; /* Dark Navbar */
+  --nav-txt-dark: #FAF3E0; /* Navbar Text */
+  --nav-txt-dark-active: #D4A857; /* Navbar Text */
+  --nav-hover-dark: #D32F2F; /* Navbar Hover */
+  --black-shadow: #000000e3;
+  --dark-shadow: #ffffff2d;
+  --dark-shadow-2: #ffffff62;
+  --dark-shadow-3: #ffffff1a;
+  
+  --dark-bg-1: #010101e0;
+  --dark-bg-2: #2E2E2E;
+  --dark-bg-3: #252525;
+  --text-1: #ffffff;
+  --text-off:#ff4500;
+  --text-off-bg:#ff44001c;
+  --text-d: #7a7a7a;
+  --outline-red:#800000;
+  
+  /* Light Mode */
+  --primary-light: #FAF3E0; /* Soft Cream */
+  --secondary-light: #FFFFFF; /* Pure White */
+  --primary-text-light: #8B0000; /* Elegant Burgundy */
+  --secondary-text-light: #5A3E36; /* Deep Brown */
+  --accent-light: #D32F2F; /* Deep Red */
+  --highlight-light: #8B0000; /* Elegant Burgundy */
+  --bg-light-nav: #FAF3E0; /* Light Navbar */
+  --nav-txt-light: #8B0000; /* Navbar Text */
+  --nav-hover-light: #D32F2F; /* Navbar Hover */
+}
+
+  
+  

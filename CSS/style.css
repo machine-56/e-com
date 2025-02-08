@@ -1,0 +1,73 @@
+@import url(./colour.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    color: var(--primary-text-dark);
+    background-color: var(--primary-dark);
+    font-family: "Poppins", "QUicksand";
+}
+
+.nav-main{
+    background-color: var(--bg-dark-nav) !important;    
+    #logo{
+        width: 48px;
+        height: 48px;
+    }
+    .navbar-collapse{
+
+        .search-main{
+            width: 60%;
+            .btn-outline-custm{
+                color: var(--tertiary-text-dark);
+                border: 1px solid var(--tertiary-text-dark);
+                background-color: transparent;
+                &:hover{
+                    color: var(--primary-dark);
+                    background-color: var(--tertiary-text-dark);
+                }
+            }
+        }
+        ul{
+            
+            .nav-link{
+                color: var(--nav-txt-dark);
+                padding: 0 1rem;
+            }
+            .nav-link.active{
+                color: var(--nav-txt-dark-active);
+            }
+            .fa-user{
+                color: var(--nav-txt-dark);
+            }
+            
+        }
+    }
+}
+
+.footer-main{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem ;
+    color: var(--primary-text-dark);
+    border-top: 1px solid #800000;
+    background-color: var(-primary-dark);
+}
+
+@media screen and (min-width:768px) {
+    .search-main{
+        margin-left: 10rem;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .search-main{
+        margin: auto;
+    }
+    
+}
