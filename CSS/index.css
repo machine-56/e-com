@@ -41,7 +41,7 @@
         .img-main{
             height: 28rem;
             object-fit: cover;
-            border: 1px solid #800000;
+            border: 1px solid var(--text-1);
             border-radius: 8px;
             box-shadow: 0px 0px 8px var(--dark-shadow);
             text-align: center;
@@ -90,13 +90,14 @@
         display: none !important;
         margin-top: 2rem;
         margin-bottom: 2rem;
+        border-radius: 8px;
+        border: 1px solid var(--text-1);
         
         img{
             padding: 1rem;
             width: 50%;
             height: 20rem;
             object-fit: cover;
-            border: 1px solid #800000;
 
         }
         .feat-para{

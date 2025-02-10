@@ -1,0 +1,16 @@
+.container{
+    margin-top: 5rem;
+}
+
+.col-md-6 p{
+    text-align: justify;
+}
+
+.in-line{
+    margin: 0;
+    display: flex;
+    .fa-solid, .fa-regular{
+        margin-right: 10px;
+        padding: 5px;
+    }
+}

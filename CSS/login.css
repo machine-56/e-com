@@ -7,6 +7,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: linear-gradient(#000000c7, #000000c7), 
+                url(../images/login-bg-1.png);
+    background-size: cover;
 }
 
 .login-container {
@@ -14,7 +17,7 @@ body{
     padding: 2rem;
     margin: 5% auto;
     border-radius: 8px;
-    background-color: var(--dark-bg-3);
+    /* background-color: var(--dark-bg-3); */
     border: 1px solid var(--text-1);
     box-shadow: 0 0px 10px var(--dark-shadow-3);
 }
