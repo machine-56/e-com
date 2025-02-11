@@ -11,8 +11,8 @@ body{
 .empty {
     display: flex;
     align-items: center;
-    justify-content: center !important;
-    height: 45vh;
+    justify-content: center;
+    /* height: 45vh; */
     text-align: center;
     font-style: italic;
     a{
@@ -31,10 +31,21 @@ body{
     object-fit: cover;
     border-radius: 8px;
 }
-.cart-qty{
-    width: 60px;
-    text-align: center;
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
+
+.cart-qty,
+.btn-danger {
+    height: 40px;
+    width: 45px; 
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+}
+
 .text-muted {
     color: #ffffff54 !important;
 }

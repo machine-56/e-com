@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const cartContainer = document.querySelector(".col-md-8"); // Cart item container
-    const orderSummary = document.querySelector(".order-summary"); // Checkout box
+    const cartContainer = document.querySelector(".col-md-8");
+    const orderSummary = document.querySelector(".order-summary");
     const subtotalEl = document.getElementById("subtotal");
     const shippingEl = document.getElementById("shipping");
     const discountEl = document.getElementById("discount");
@@ -29,13 +29,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Handle empty cart state
         if (subtotal === 0) {
-            emptyMessage.style.display = "block"; // Show "Cart is empty" message
-            cartContainer.style.display = "none"; // Hide cart items
-            orderSummary.style.display = "none"; // Hide checkout box
+            emptyMessage.style.display = "block";
+            cartContainer.style.display = "none";
+            orderSummary.style.display = "none";
         } else {
-            emptyMessage.style.display = "none"; // Hide "Cart is empty" message
-            cartContainer.style.display = "block"; // Show cart items
-            orderSummary.style.display = "block"; // Show checkout box
+            emptyMessage.style.display = "none";
+            cartContainer.style.display = "block";
+            orderSummary.style.display = "block";
         }
     }
 
