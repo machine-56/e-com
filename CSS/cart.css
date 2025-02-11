@@ -8,15 +8,18 @@ body{
     justify-content: space-between;
 }
 
-/* .empty{
+.empty {
     display: flex;
-    justify-content: center;
-    color: var(--text-d);
+    align-items: center;
+    justify-content: center !important;
+    height: 45vh;
+    text-align: center;
+    font-style: italic;
     a{
         text-decoration: none;
         color: var(--outline-red);
     }
-} */
+}
 
 .head-text{
     margin: 3rem 0;
