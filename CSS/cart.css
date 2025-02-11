@@ -8,7 +8,7 @@ body{
     justify-content: space-between;
 }
 
-.empty{
+/* .empty{
     display: flex;
     justify-content: center;
     color: var(--text-d);
@@ -16,4 +16,41 @@ body{
         text-decoration: none;
         color: var(--outline-red);
     }
+} */
+
+.head-text{
+    margin: 3rem 0;
+}
+
+.cart-img{
+    width: 80px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.cart-qty{
+    width: 60px;
+    text-align: center;
+}
+.text-muted {
+    color: #ffffff54 !important;
+}
+
+
+
+
+.btn-outline-cstm{
+    border: 2px solid var(--nav-txt-dark);
+    color: var(--nav-txt-dark);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-cstm:hover {
+    background-color: var(--nav-txt-dark);
+    color: #1C1C1C;
+}
+
+#link-signup{
+    color: var(--nav-txt-dark);
+    text-decoration: none;
 }
